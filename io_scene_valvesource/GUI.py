@@ -79,6 +79,10 @@ class SMD_PT_Scene(bpy.types.Panel):
 		row.alignment = 'CENTER'
 		row.prop(scene.vs,"layer_filter")
 		row.prop(scene.vs,"use_image_names")
+		
+		row = l.row()
+		row.alignment = 'LEFT'
+		row.prop(scene.vs,"goldsource_compatibility")
 
 		row = l.row()
 		row.alert = len(scene.vs.export_path) == 0

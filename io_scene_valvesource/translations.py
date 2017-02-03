@@ -868,6 +868,16 @@ _data = {
 	'en': "Ignore Blender Materials",
 	'ru': "Игнорировать материалы Blender",
 },
+'goldsource_compatibility': {
+	'ja': "",
+	'en': "GoldSource Compatibility",
+	'ru': "Совместимость с GoldSource",
+},
+'goldsource_compatibility_tip': {
+	'ja': "a",
+	'en': "Correctly preserves bones info for GoldSource",
+	'ru': "Правильно сохранять информацию о костях для GoldSource",
+},
 'visible_only_tip': {
 	'en': "Ignore objects in hidden layers",
 	'ru': "Не экспортировать объекты, расположенные на выключенных слоях",
